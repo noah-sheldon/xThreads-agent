@@ -1,0 +1,71 @@
+{
+  "platforms": {
+    "twitter": {
+      "enabled": true,
+      "posts_per_day": 4,
+      "optimal_times_uk": ["14:00", "15:30", "17:00"],
+      "content_types": ["text", "image", "hook", "reply"],
+      "max_chars": 280
+    },
+    "threads": {
+      "enabled": true,
+      "posts_per_day": 3,
+      "optimal_times_uk": ["14:30", "16:00", "17:30"],
+      "content_types": ["text", "meme", "carousel"],
+      "max_chars": 500
+    },
+    "reddit": {
+      "enabled": true,
+      "posts_per_day": 2,
+      "optimal_times_uk": ["12:00", "14:30"],
+      "content_types": ["comment", "thread", "discussion"],
+      "subreddits": ["entrepreneur", "SideProject", "startups", "webdev"]
+    },
+    "linkedin": {
+      "enabled": true,
+      "posts_per_day": 1,
+      "optimal_times_uk": ["13:00"],
+      "content_types": ["carousel", "video", "professional"],
+      "max_chars": 3000
+    },
+    "instagram": {
+      "enabled": true,
+      "posts_per_day": 1,
+      "optimal_times_uk": ["16:00"],
+      "content_types": ["reels", "carousel"],
+      "max_chars": 2200
+    },
+    "tiktok": {
+      "enabled": true,
+      "posts_per_day": 1,
+      "optimal_times_uk": ["17:30"],
+      "content_types": ["short_video"],
+      "max_chars": 150
+    },
+    "facebook": {
+      "enabled": true,
+      "posts_per_day": 1,
+      "optimal_times_uk": ["18:30"],
+      "content_types": ["post_image", "link"],
+      "max_chars": 500
+    },
+    "quora": {
+      "enabled": true,
+      "posts_per_day": 1,
+      "optimal_times_uk": ["23:30"],
+      "content_types": ["answer", "post"],
+      "max_chars": 1000
+    }
+  },
+  "content_filters": {
+    "profanity": true,
+    "politics": true,
+    "competitors": ["hypefury", "typefully", "buffer", "hootsuite"],
+    "nsfw": true
+  },
+  "scraping": {
+    "max_posts_per_platform": 50,
+    "min_engagement_threshold": 10,
+    "trending_timeframe_hours": 24
+  }
+}
