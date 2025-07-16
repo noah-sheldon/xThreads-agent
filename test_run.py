@@ -4,6 +4,9 @@ Test script to verify xthreads_agent setup
 """
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 import sys
 from pathlib import Path
 

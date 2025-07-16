@@ -5,6 +5,9 @@ Generates daily content for xthreads.app across multiple platforms
 """
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 import sys
 import json
 import logging
